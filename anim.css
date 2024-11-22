@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(196, 201, 255);
+}
+
+#rect {
+    width: 400px;
+    height: 300px;
+    stroke-width: 2;
+    stroke: black;
+    fill: white;
+}
+
+#red {
+    width: 400px;
+    height: 100px;
+    stroke-width: 2;
+    stroke: black;
+    fill: red;
+}
+
+#blue {
+    width: 400px;
+    height: 100px;
+    stroke-width: 2;
+    stroke: black;
+    fill: blue;
+}
+
+#image {
+    position: absolute;
+    top: 80px;
+}
+
+#circle {
+    cx: 200px;
+    cy: 500px;
+    r: 50px;
+    fill: yellowgreen;
+}
+
+#pallette {
+    position: absolute;
+    left: 300px;
+}

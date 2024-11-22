@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблицы</title>
+</head>
+<body>
+    <table border="1" style="boreder: 10px solid gray">
+        <caption>Заголовок</caption>
+        <colgroup>
+            <col style="background-color: yellowgreen;">
+            <col span="2" style="background-color: aqua;">
+        </colgroup>
+        <tr>
+            <th>&nbsp</th>
+            <th>Столбец</th>
+            <th>Столбец</th>
+        </tr>
+        <tr>
+            <th>Строка</th>
+            <td colspan="2">Первая и Вторая ячейка</td>
+        </tr>
+        <tr>
+            <th>Строка</th>
+            <td>Третья ячейка</td>
+            <td rowspan="2">Четвертая и Шестая ячейка</td>
+        </tr>
+        <tr>
+            <th>Строка</th>
+            <td rowspan="2">Пятая и Седьмая ячейка</td>
+        </tr>
+        <tr>
+            <th>Строка</th>
+            <td>Восьмая ячейка</td>
+        </tr>
+    </table>
+    <p><a href="index.html">На главную </a></p>
+</body>
+</html>
